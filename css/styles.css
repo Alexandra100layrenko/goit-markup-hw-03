@@ -1,0 +1,250 @@
+:root{
+  --main-font-family: 'Roboto', sans-serif;
+  --secondary-font-family-family: 'Raleway', sans-serif;
+  --primary-brand: #4D5AE5;
+  --primary-color-white: #ffffff;
+  --primary-text-color: #434455;
+  --subtle-text: #8E8F99;
+  --accent-color-pressed-state: #404BBF;
+  --accent-color-pressed: #E7E9FC;
+  --modal-background: #FCFCFC;
+  --success: #31D0AA;
+  --light: #F4F4FD;
+  --dark: #2E2F42;
+}
+.link{
+  text-decoration: none;
+}
+.list{
+  list-style: none;
+}
+button{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+/*================== CONTAINER ================*/
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-color-white);
+}
+h1{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--primary-color-white);
+}
+h2{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--dark);
+}
+h3{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--dark);
+}
+p{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+p .medium{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+p .small{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: var(--dark);
+}
+.link a{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+}
+
+/* ================= HEADER ================= */
+.page-header{
+  color: var(--dark);
+}
+/* ==== LOGO === */
+.logo{
+  font-family: var(--secondary-font-family-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+}
+.logo-accent{
+  color: var(--dark);
+}
+/* ==== MENU === */
+
+.menu-link{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  text-decoration:none;
+}
+.menu-link:hover,
+.menu-link:focus{
+  color: var(--accent-color-pressed-state);
+}
+address{
+  font-style: normal;
+}
+.force{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.force:hover,
+.force:focus{
+  color: var(--accent-color-pressed-state);
+}
+/* ================= MAIN ================= */
+/* ================= SECTION-1-BANNER ================= */
+.image-bg{
+  background-color: var(--dark);
+  background-image: url(../images/people-office-banner.jpg);
+  color: white;
+}
+/* ==== BUTTON === */
+.btn{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--primary-color-white);
+  background-color: #4D5AE5;
+}
+.btn:hover,
+.btn:active,
+.btn:focus{
+  background-color: #404BBF;
+}
+/* ==== /BUTTON === */
+/* ================= SECTION-2 ================= */
+.description-benefits{
+  color: var(--primary-text-color);
+}
+/* ================= SECTION-3 ================= */
+
+/* ================= SECTION-4 ================= */
+.card-employee{
+  background-color: #F4F4FD
+}
+.card-employee-item{
+  background-color: #FFFFFF;
+}
+.card-employee-descriptions{
+  font-size: 16px;
+  color: var(--primary-text-color);
+  line-height: 1.5;
+}
+/* ================= FOOTER ================= */
+.footer-bg{
+  background-color: #2E2F42;
+}
+.logo-footer{
+   font-family: "Raleway", sans-serif;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--primary-brand);
+}
+.logo-accent-footer{
+  color: #f4f4fd;
+}
+.footer-descriptions{
+  color: var(--light);
+}
+/* ================= PORTFOLIO ================= */
+
+/* ================= MAIN ================= */
+/* ================= SECTION-1 ================= */
+
+.menu-filter-btn{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+  background-color: var(--light);
+}
+.menu-filter-btn:hover,
+.menu-filter-btn:focus{
+  color: #ffffff;
+  background-color: #404BBF;
+}
+/* ================= SECTION-2 ================= */
+.cards-product-text{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.cards-product-descriptions{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+/* ================= PORTFOLIO ================= */
