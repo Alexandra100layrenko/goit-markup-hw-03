@@ -15,111 +15,129 @@
 <body>
     <!-- HEADER -->
     <header id="#top" class="page-header">
-        <nav class="page-navigation-menu">
-            <a href="./index.html" class="logo link">Web<span class="logo-accent">Studio</span></a>
-            <ul class="menu-list list">
+        <div class="page-header-container container">
+            <nav class="page-navigation-menu">
+              <a href="./index.html" class="logo link">Web<span class="logo-accent">Studio</span></a>
+              <ul class="menu-list list">
                 <li class="menu-item">
-                    <a class="menu-link link" href="./index.html" target="_blank" rel="noopener noreferrer">Studio</a>
+                  <a class="menu-link link" href="./index.html" target="_blank" rel="noopener noreferrer">Studio</a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link link" href="./portfolio.html" target="_blank" rel="noopener noreferrer">Portfolio</a>
+                  <a class="menu-link link" href="./portfolio.html" target="_blank" rel="noopener noreferrer">Portfolio</a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link link" href="" target="_blank" rel="noopener noreferrer">Contacts</a>
+                  <a class="menu-link link" href="" target="_blank" rel="noopener noreferrer">Contacts</a>
                 </li>
-            </ul>
-        </nav>
-        <address class="page-contact">
-            <ul class="contact-list list">
+              </ul>
+            </nav>
+            <address class="page-contact">
+              <ul class="contact-list list">
                 <li class="contact-item">
-                    <a class="force e-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                  <a class="force link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li class="contact-item">
-                    <a class="force tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                  <a class="force link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
-            </ul>
-        </address>
+              </ul>
+            </address>
+        </div>
     </header>
     <!-- MAIN -->
     <main>
         <!-- SECTION-1 -->
-        <section class="menu-filter container">
-            <h1 hidden class="heder-title">Portfolio for Your Business</h1>
-            <ul class="menu-filter-list  list">
-                <li class="menu-filter-item"><button class="menu-filter-btn" type="button">All</button></li>
-                <li class="menu-filter-item"><button class="menu-filter-btn" type="button">Web Site</button></li>
-                <li class="menu-filter-item"><button class="menu-filter-btn" type="button">App</button></li>
-                <li class="menu-filter-item"><button class="menu-filter-btn" type="button">Design</button></li>
-                <li class="menu-filter-item"><button class="menu-filter-btn" type="button">Marketing</button></li>
-            </ul>
-            <!-- SECTION-2 -->
-            <ul class="cards-product-list list">
-                <li class="cards-product-item">
-                    <a class="cards-product-link link" href="">
-                        <img class="cards-product-img" src="./images/portfolio/banking-app-interface-concept.jpg" alt="banking-app" width="360" >
-                    
+        <section class="menu-filter">
+            <div class="container">
+                <h1 class="heder-title visually-hidden">Portfolio for Your Business</h1>
+                <ul class="menu-filter-list list">
+                    <li class="menu-filter-item"><button class="menu-filter-btn" type="button">All</button></li>
+                    <li class="menu-filter-item"><button class="menu-filter-btn" type="button">Web Site</button></li>
+                    <li class="menu-filter-item"><button class="menu-filter-btn" type="button">App</button></li>
+                    <li class="menu-filter-item"><button class="menu-filter-btn" type="button">Design</button></li>
+                    <li class="menu-filter-item"><button class="menu-filter-btn" type="button">Marketing</button></li>
+                </ul>
+                <!-- SECTION-2 -->
+                <ul class="cards-product-list list">
+                    <li class="cards-product-item">
+                        <a class="cards-product-link link" href="">
+                            <img class="cards-product-img" src="./images/portfolio/banking-app-interface-concept.jpg" alt="banking-app" width="360" >
                             <h2 class="cards-product-text">Banking App Interface Concept</h2>
                             <p class="cards-product-descriptions">App</p>
-                        
-                    </a>
-                </li>
-                <li class="cards-product-item">
-                    <a class="cards-product-link link" href="">
-                        <img class="cards-product-img" src="./images/portfolio/cashless-payment.jpg" alt="cashless-payment" width="360" >
-                        <h2 class="cards-product-text">Cashless Payment</h2>
-                        <p class="cards-product-descriptions">Marketing</p>
-                    </a>
-                </li>
-                <li class="cards-product-item">
-                    <a class="cards-product-link link" href="">
-                        <img class="cards-product-img" src="./images/portfolio/meditation-app.jpg" alt="meditation-app" width="360" >
-                        <h2 class="cards-product-text">Meditation App</h2>
-                        <p class="cards-product-descriptions">App</p>
-                    </a>
-                </li>
-                <li class="cards-product-item">
-                    <a class="cards-product-link link" href="">
-                        <img class="cards-product-img" src="./images/portfolio/taxi-service.jpg" alt="taxi-service" width="360" >
-                        <h2 class="cards-product-text">Taxi Service</h2>
-                        <p class="cards-product-descriptions">Marketing</p>
-                    </a>
-                </li>
-                <li class="cards-product-item">
-                    <a class="cards-product-link link" href="">
-                        <img class="cards-product-img" src="./images/portfolio/screen-illustrations.jpg" alt="screen-illustrations" width="360" >
-                        <h2 class="cards-product-text">Screen Illustrations</h2>
-                        <p class="cards-product-descriptions">Design</p>
-                    </a>
-                </li>
-                <li class="cards-product-item">
-                    <a class="cards-product-link link" href="">
-                        <img class="cards-product-img" src="./images/portfolio/online-courses.jpg" alt="online-courses" width="360" >
-                        <h2 class="cards-product-text">Online Courses</h2>
-                        <p class="cards-product-descriptions">Marketing</p>
-                    </a>
-                </li>
-                <li class="cards-product-item">
-                    <a class="cards-product-link link" href="">
-                        <img class="cards-product-img" src="./images/portfolio/instagram-stories-concept.jpg" alt="instagram-stories-concept" width="360" >
-                        <h2 class="cards-product-text">Instagram Stories Concept</h2>
-                        <p class="cards-product-descriptions">Design</p>
-                    </a>
-                </li>
-                <li class="cards-product-item">
-                    <a class="cards-product-link link" href="">
-                        <img class="cards-product-img" src="./images/portfolio/organic-food.jpg" alt="organic-food" width="360" >
-                        <h2 class="cards-product-text">Organic Food</h2>
-                        <p class="cards-product-descriptions">Web Site</p>
-                    </a>
-                </li>
-                <li class="cards-product-item">
-                    <a class="cards-product-link link" href="">
-                        <img class="cards-product-img" src="./images/portfolio/fresh-coffee.jpg" alt="fresh-coffee" width="360" >
-                        <h2 class="cards-product-text">Fresh Coffee</h2>
-                        <p class="cards-product-descriptions">Web Site</p>
-                    </a>
-                </li>
-            </ul>
+                        </a>
+                    </li>
+                    <li class="cards-product-item">
+                        <a class="cards-product-link link" href="">
+                            <div class="cards-product-desc">
+                                <img class="cards-product-img" src="./images/portfolio/cashless-payment.jpg" alt="cashless-payment" width="360" >
+                                <h2 class="cards-product-text">Cashless Payment</h2>
+                                <p class="cards-product-descriptions">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="cards-product-item">
+                        <a class="cards-product-link link" href="">
+                            <div class="cards-product-desc">
+                                <img class="cards-product-img" src="./images/portfolio/meditation-app.jpg" alt="meditation-app" width="360" >
+                                <h2 class="cards-product-text">Meditation App</h2>
+                                <p class="cards-product-descriptions">App</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="cards-product-item">
+                        <a class="cards-product-link link" href="">
+                            <div class="cards-product-desc">
+                                <img class="cards-product-img" src="./images/portfolio/taxi-service.jpg" alt="taxi-service" width="360" >
+                                <h2 class="cards-product-text">Taxi Service</h2>
+                                <p class="cards-product-descriptions">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="cards-product-item">
+                        <a class="cards-product-link link" href="">
+                            <div class="cards-product-desc">
+                                <img class="cards-product-img" src="./images/portfolio/screen-illustrations.jpg" alt="screen-illustrations" width="360" >
+                                <h2 class="cards-product-text">Screen Illustrations</h2>
+                                <p class="cards-product-descriptions">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="cards-product-item">
+                        <a class="cards-product-link link" href="">
+                            <div class="cards-product-desc">
+                                <img class="cards-product-img" src="./images/portfolio/online-courses.jpg" alt="online-courses" width="360" >
+                                <h2 class="cards-product-text">Online Courses</h2>
+                                <p class="cards-product-descriptions">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="cards-product-item">
+                        <a class="cards-product-link link" href="">
+                            <div class="cards-product-desc">
+                                <img class="cards-product-img" src="./images/portfolio/instagram-stories-concept.jpg" alt="instagram-stories-concept" width="360" >
+                                <h2 class="cards-product-text">Instagram Stories Concept</h2>
+                                <p class="cards-product-descriptions">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="cards-product-item">
+                        <a class="cards-product-link link" href="">
+                            <div class="cards-product-desc">
+                                <img class="cards-product-img" src="./images/portfolio/organic-food.jpg" alt="organic-food" width="360" >
+                                <h2 class="cards-product-text">Organic Food</h2>
+                                <p class="cards-product-descriptions">Web Site</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="cards-product-item">
+                        <a class="cards-product-link link" href="">
+                            <div class="cards-product-desc">
+                                <img class="cards-product-img" src="./images/portfolio/fresh-coffee.jpg" alt="fresh-coffee" width="360" >
+                                <h2 class="cards-product-text">Fresh Coffee</h2>
+                                <p class="cards-product-descriptions">Web Site</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <!-- FOOTER -->
