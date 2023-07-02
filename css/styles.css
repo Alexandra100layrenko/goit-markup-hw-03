@@ -173,8 +173,20 @@ p .small{
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
-
-
+.menu-link{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  text-decoration:none;
+}
+.menu-link:hover,
+.menu-link:focus{
+  color: var(--accent-color-pressed-state);
+}
 /* ==== LOGO === */
 .logo{
   font-family: var(--secondary-font-family-family);
@@ -190,22 +202,7 @@ p .small{
   color: var(--dark);
 }
 
-
 /* ==== MENU === */
-.menu-link{
-  font-family: var(--main-font-family);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--dark);
-  text-decoration:none;
-}
-.menu-link:hover,
-.menu-link:focus{
-  color: var(--accent-color-pressed-state);
-}
 .page-contact{
   font-family: var(--main-font-family);
   font-style: normal;
