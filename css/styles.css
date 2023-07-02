@@ -50,6 +50,10 @@ a{
 li{
   list-style-type: none;
 }
+
+img{
+  display: block;
+}
 /*================== CONTAINER ================*/
 .container{
   width: 1158px;
@@ -61,6 +65,20 @@ li{
 .section{
   margin-bottom: 120px;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 body{
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
@@ -145,8 +163,7 @@ p .small{
 .page-header{
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0 24px;
   color: var(--dark);
   border-bottom: 1px solid #e7e9fc;
 }
@@ -162,7 +179,10 @@ p .small{
 }
 .menu-list{
   display: flex;
-  column-gap: 40px;
+  margin-right: 40px;
+}
+.menu-list:last-child{
+  margin-right: 0;
 }
 .menu-item{
   font-family: var(--main-font-family);
@@ -240,7 +260,7 @@ p .small{
   padding-top: 188px;
   padding-bottom: 188px;
 }
-.heder-title{
+.heder-title h1{
   max-width: 496px;
   margin-bottom: 48px;
   margin-right: auto;
@@ -275,6 +295,9 @@ p .small{
 }
 /* ==== /BUTTON === */
 /* ================= SECTION-2 ================= */
+.benefits{
+  padding: 120px 0;
+}
 .benefits-option{
   display: flex;
   align-content: center;
