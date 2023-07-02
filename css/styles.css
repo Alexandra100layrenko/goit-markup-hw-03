@@ -379,18 +379,21 @@ p .small{
   flex-direction: row;
 }
 .logo-footer{
-   font-family: "Raleway", sans-serif;
-   font-weight: 800;
-   font-size: 18px;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: var(--primary-brand);
+  display: inline-block; 
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+  margin-bottom: 16px;
 }
 .logo-accent-footer{
   color: #f4f4fd;
 }
 .footer-descriptions{
+  max-width: 264px;
   color: var(--light);
   
 }
@@ -418,7 +421,7 @@ p .small{
   background-color: var(--light);
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid var(--modal-background);
+  border: 1px solid #e7e9fc;
 }
 .menu-filter-btn:hover,
 .menu-filter-btn:focus{
