@@ -12,28 +12,57 @@
   --light: #F4F4FD;
   --dark: #2E2F42;
 }
+
 .link{
   text-decoration: none;
 }
+
 .list{
   list-style: none;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
 button{
   cursor: pointer;
 }
+
 a{
   text-decoration: none;
 }
+
 li{
   list-style-type: none;
 }
 /*================== CONTAINER ================*/
+.container{
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 body{
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
   background-color: var(--primary-color-white);
 }
+
 h1{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -44,6 +73,7 @@ h1{
   text-align: center;
   color: var(--primary-color-white);
 }
+
 h2{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -55,6 +85,7 @@ h2{
   text-align: center;
   color: var(--dark);
 }
+
 h3{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -65,6 +96,7 @@ h3{
   text-align: center;
   color: var(--dark);
 }
+
 p{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -74,6 +106,7 @@ p{
   letter-spacing: 0.02em;
   color: var(--dark);
 }
+
 p .medium{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -83,6 +116,7 @@ p .medium{
   letter-spacing: 0.02em;
   color: var(--dark);
 }
+
 p .small{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -92,6 +126,7 @@ p .small{
   letter-spacing: 0.04em;
   color: var(--dark);
 }
+
 .link a{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -105,6 +140,14 @@ p .small{
 /* ================= HEADER ================= */
 .page-header{
   color: var(--dark);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.page-header-container{
+  
 }
 /* ==== LOGO === */
 .logo{

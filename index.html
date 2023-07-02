@@ -15,30 +15,32 @@
 <body>
     <!-- HEADER -->
     <header id="#top" class="page-header">
-      <nav class="page-navigation-menu">
-        <a href="./index.html" class="logo link">Web<span class="logo-accent">Studio</span></a>
-        <ul class="menu-list list">
-          <li class="menu-item">
-            <a class="menu-link link" href="./index.html" target="_blank" rel="noopener noreferrer">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="./portfolio.html" target="_blank" rel="noopener noreferrer">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="" target="_blank" rel="noopener noreferrer">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="page-contact">
-        <ul class="contact-list list">
+      <div class="page-header-container container">
+        <nav class="page-navigation-menu">
+          <a href="./index.html" class="logo link">Web<span class="logo-accent">Studio</span></a>
+          <ul class="menu-list list">
+            <li class="menu-item">
+              <a class="menu-link link" href="./index.html" target="_blank" rel="noopener noreferrer">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="./portfolio.html" target="_blank" rel="noopener noreferrer">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="" target="_blank" rel="noopener noreferrer">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="page-contact">
+          <ul class="contact-list list">
             <li class="contact-item">
-                <a class="force link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="force link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li class="contact-item">
-                <a class="force link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              <a class="force link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
-        </ul>
-      </address>
+          </ul>
+        </address>
+      </div>
     </header>
     <!-- MAIN -->
     <main>
@@ -48,7 +50,7 @@
         <button type="button" class="btn">Order Service</button>
       </section>
       <!-- SECTION-2 -->
-      <section class="benefits">
+      <section class="benefits container">
         <h2 hidden class="benefits-text">Section2</h2>
         <ul class="benefits-option list">
           <li class="benefits-item">
@@ -70,7 +72,7 @@
         </ul>
       </section>
       <!-- SECTION-3 -->
-      <section class="category-product">
+      <section class="category-product container">
         <h2 class="category-product-text">What are we doing</h2>
         <ul class="category-product-list list">
           <li class="category-product-item">
@@ -86,35 +88,39 @@
       </section>
       <!-- SECTION-4 -->
       <section class="card-employee">
-        <h2 class="card-employee-text">Our Team</h2>
-        <ul class="card-employee-list  list">
-          <li class="card-employee-item">
-            <img class="card-employee-img" src="./images/mark-guerrero.jpg" alt="product designer" width="264" height="260">
-            <h3 class="card-employee-name">Mark Guerrero</h3>
-            <p class="card-employee-descriptions">Product Designer</p>
-          </li>
-          <li class="card-employee-item">
-            <img class="card-employee-img" src="./images/tom-ford.jpg" alt="frontend developer" width="264" height="260">
-            <h3 class="card-employee-name">Tom Ford</h3>
-            <p class="card-employee-descriptions">Frontend Developer</p>
-          </li>
-          <li class="card-employee-item">
-            <img class="card-employee-img" src="./images/camila-garcia.jpg" alt="marketing" width="264" height="260">
-            <h3 class="card-employee-name">Camila Garcia</h3>
-            <p class="card-employee-descriptions">Marketing</p>
-          </li>
-          <li class="card-employee-item">
-            <img class="card-employee-img" src="./images/daniel-wilson.jpg" alt="ui designer" width="264" height="260">
-            <h3 class="card-employee-name">Daniel Wilson</h3>
-            <p class="card-employee-descriptions">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="card-employee-text">Our Team</h2>
+          <ul class="card-employee-list  list">
+            <li class="card-employee-item">
+              <img class="card-employee-img" src="./images/mark-guerrero.jpg" alt="product designer" width="264" height="260">
+              <h3 class="card-employee-name">Mark Guerrero</h3>
+              <p class="card-employee-descriptions">Product Designer</p>
+            </li>
+            <li class="card-employee-item">
+              <img class="card-employee-img" src="./images/tom-ford.jpg" alt="frontend developer" width="264" height="260">
+              <h3 class="card-employee-name">Tom Ford</h3>
+              <p class="card-employee-descriptions">Frontend Developer</p>
+            </li>
+            <li class="card-employee-item">
+              <img class="card-employee-img" src="./images/camila-garcia.jpg" alt="marketing" width="264" height="260">
+              <h3 class="card-employee-name">Camila Garcia</h3>
+              <p class="card-employee-descriptions">Marketing</p>
+            </li>
+            <li class="card-employee-item">
+              <img class="card-employee-img" src="./images/daniel-wilson.jpg" alt="ui designer" width="264" height="260">
+              <h3 class="card-employee-name">Daniel Wilson</h3>
+              <p class="card-employee-descriptions">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- FOOTER -->
     <footer class="footer-bg">
-      <a href="./index.html" class="logo-footer link">Web<span class="logo-accent-footer">Studio</span></a>
-      <p class="footer-descriptions">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+      <div class="container">
+        <a href="./index.html" class="logo-footer link">Web<span class="logo-accent-footer">Studio</span></a>
+        <p class="footer-descriptions">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+      </div>
     </footer>
 </body>
 </html>
