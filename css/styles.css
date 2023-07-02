@@ -351,12 +351,10 @@ p .small{
 .footer-content{
   display: flex;
   justify-content: left;
-  column-gap: 120px;
 }
 .footer-information{
   display: flex;
   flex-direction: row;
-  column-gap: 120px;
 }
 .logo-footer{
    font-family: "Raleway", sans-serif;
