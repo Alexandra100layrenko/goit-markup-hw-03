@@ -247,6 +247,7 @@ p .small{
 /* ================= MAIN ================= */
 /* ================= SECTION-1-BANNER ================= */
 .image-bg{
+  display: block;
   background-color: var(--dark);
   background-image: linear-gradient(rgba(47, 46, 66, 70%), rgba(47, 46, 66, 70%)), url(../images/people-office-banner.jpg);
   width: 1440px;
