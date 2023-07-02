@@ -163,9 +163,11 @@ p .small{
 .page-header{
   display: flex;
   align-items: center;
-  padding: 24px 0 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: var(--dark);
   border-bottom: 1px solid #e7e9fc;
+  gap: 40px;
 }
 .page-header-container{
   display: flex;
@@ -179,10 +181,7 @@ p .small{
 }
 .menu-list{
   display: flex;
-  margin-right: 40px;
-}
-.menu-list:last-child{
-  margin-right: 0;
+  gap: 40px;
 }
 .menu-item{
   font-family: var(--main-font-family);
