@@ -197,6 +197,7 @@ p .small{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
+  margin-right: 76px;
 }
 .logo-accent{
   color: var(--dark);
@@ -216,7 +217,7 @@ p .small{
   display: flex;
   justify-content: space-between;
 }
-.e-mail{
+.force{
   margin-left: auto;
   margin-right: 40px;
 }
