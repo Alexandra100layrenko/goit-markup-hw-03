@@ -94,6 +94,10 @@ h1{
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--primary-color-white);
+  max-width: 496px;
+  margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 h2{
@@ -260,12 +264,7 @@ p .small{
   padding-top: 188px;
   padding-bottom: 188px;
 }
-.heder-title h1{
-  max-width: 496px;
-  margin-bottom: 48px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 /* ==== BUTTON === */
 .modal-open-btn{
   display: block;
