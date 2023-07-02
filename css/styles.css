@@ -53,8 +53,10 @@ li{
 /*================== CONTAINER ================*/
 .container{
   width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 body{
@@ -139,16 +141,38 @@ p .small{
 
 /* ================= HEADER ================= */
 .page-header{
-  color: var(--dark);
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  color: var(--dark);
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container{
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.page-navigation{
+  display: flex;
+  align-items: center;
+  margin-right: 76px;
+}
+.menu-list{
+  display: flex;
+  column-gap: 40px;
+}
+.menu-item{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+
 /* ==== LOGO === */
 .logo{
   font-family: var(--secondary-font-family-family);
@@ -163,8 +187,9 @@ p .small{
 .logo-accent{
   color: var(--dark);
 }
-/* ==== MENU === */
 
+
+/* ==== MENU === */
 .menu-link{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -179,10 +204,7 @@ p .small{
 .menu-link:focus{
   color: var(--accent-color-pressed-state);
 }
-address{
-  font-style: normal;
-}
-.force{
+.page-contact{
   font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 400;
@@ -190,6 +212,14 @@ address{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+.contact-list{
+  display: flex;
+  justify-content: space-between;
+}
+.e-mail{
+  margin-left: auto;
+  margin-right: 40px;
 }
 .force:hover,
 .force:focus{
@@ -199,11 +229,30 @@ address{
 /* ================= SECTION-1-BANNER ================= */
 .image-bg{
   background-color: var(--dark);
-  background-image: url(../images/people-office-banner.jpg);
+  background-image: linear-gradient(rgba(47, 46, 66, 70%), rgba(47, 46, 66, 70%)), url(../images/people-office-banner.jpg);
+  width: 1440px;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
   color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.heder-title{
+  max-width: 496px;
+  margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
 }
 /* ==== BUTTON === */
-.btn{
+.modal-open-btn{
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 500;
@@ -212,7 +261,12 @@ address{
   letter-spacing: 0.04em;
   text-align: center;
   color: var(--primary-color-white);
+  padding: 15px 28px;
+  border: none;
+  border-color: var(--primary-bg-color-theme-light);
+  border-radius: 4px;
   background-color: #4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .btn:hover,
 .btn:active,
@@ -221,6 +275,14 @@ address{
 }
 /* ==== /BUTTON === */
 /* ================= SECTION-2 ================= */
+.benefits-option{
+  display: flex;
+  align-content: center;
+  gap: 24px;
+}
+.benefits-item{
+  flex-basis: calc((100% - 72px) / 4);
+}
 .description-benefits{
   color: var(--primary-text-color);
 }
