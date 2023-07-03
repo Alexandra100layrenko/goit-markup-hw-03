@@ -187,6 +187,8 @@ p .small{
 }
 .menu-list{
   display: flex;
+  align-content: center;
+  gap: 40px;
 }
 
 .menu-item{
@@ -241,6 +243,7 @@ p .small{
 .contact-list{
   display: flex;
   justify-content: space-between;
+  align-content: center;
   gap: 40px;
 }
 .force{
