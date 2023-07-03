@@ -167,12 +167,15 @@ p .small{
 .page-header{
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
   color: var(--dark);
   border-bottom: 1px solid #e7e9fc;
   gap: 40px;
 }
+.page-header-container a{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .page-header-container{
   display: flex;
   align-items: center;
@@ -325,7 +328,6 @@ p .small{
 }
 .category-product-item{
   flex-basis: calc((100% - 48px) / 3);
-  border: 1px solid #E7E9FC;;
 }
 /* ================= SECTION-4 ================= */
 .card-employee{
