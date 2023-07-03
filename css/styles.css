@@ -188,9 +188,7 @@ p .small{
 .menu-list{
   display: flex;
 }
-.page-header-container li{
-  gap: 40px;
-}
+
 .menu-item{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -243,6 +241,7 @@ p .small{
 .contact-list{
   display: flex;
   justify-content: space-between;
+  gap: 40px;
 }
 .force{
   margin-left: auto;
@@ -374,7 +373,7 @@ p .small{
   padding-bottom: 100px;
 }
 .footer-content{
-  display: inline-block;
+  display: flex;
   justify-content: left;
   gap: 40px;
 }
@@ -383,6 +382,7 @@ p .small{
   flex-direction: row;
 }
 .logo-footer{
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -392,14 +392,12 @@ p .small{
   color: var(--primary-brand);
   margin-bottom: 16px;
 }
-
 .logo-accent-footer{
   color: #f4f4fd;
 }
 .footer-descriptions{
   max-width: 264px;
   color: var(--light);
-  
 }
 /* ================= PORTFOLIO ================= */
 
