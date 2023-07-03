@@ -373,12 +373,14 @@ p .small{
 .footer-content{
   display: flex;
   justify-content: left;
+  gap: 40px;
 }
 .footer-information{
   display: flex;
   flex-direction: row;
 }
 .logo-footer{
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -387,9 +389,6 @@ p .small{
   text-transform: uppercase;
   color: var(--primary-brand);
   margin-bottom: 16px;
-}
-.logo-footer a{
-  display: inline-block;
 }
 .logo-accent-footer{
   color: #f4f4fd;
