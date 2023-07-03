@@ -187,6 +187,8 @@ p .small{
 }
 .menu-list{
   display: flex;
+}
+.page-header-container li{
   gap: 40px;
 }
 .menu-item{
