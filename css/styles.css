@@ -375,9 +375,8 @@ p .small{
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
-.footer-information{
-  display: flex;
+.footer-content{
+  display: inline-block;
   flex-direction: row;
 }
 .logo-footer{
