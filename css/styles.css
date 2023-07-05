@@ -375,11 +375,7 @@ p .small{
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-content{
-  display: flex;
-  justify-content: left;
-  gap: 40px;
-}
+
 .footer-information{
   display: flex;
   flex-direction: row;
