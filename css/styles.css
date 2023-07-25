@@ -304,6 +304,9 @@ p .small{
   color: var(--primary-text-color);
 }
 /* ================= SECTION-3 ================= */
+.category-product{
+  padding-bottom: 120px;
+}
 
 .category-product-text{
   margin-bottom: 72px;
@@ -339,7 +342,8 @@ p .small{
   border-radius: 0px 0px 4px 4px;
 }
 .card-employee-desc{
-  padding: 32px 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .card-employee-name{
   text-align: center;
