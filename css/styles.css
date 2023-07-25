@@ -62,9 +62,6 @@ img{
   padding-left: 15px;
   padding-right: 15px;
 }
-.section{
-  margin-bottom: 120px;
-}
 
 .visually-hidden {
   position: absolute;
@@ -85,7 +82,7 @@ body{
   background-color: var(--primary-color-white);
 }
 
-h1{
+.heder-title{
   font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 700;
@@ -100,7 +97,7 @@ h1{
   margin-left: auto;
 }
 
-h2{
+.title-text{
   font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 700;
@@ -108,11 +105,10 @@ h2{
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: var(--dark);
 }
 
-h3{
+.title-text-options{
   font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 500;
@@ -123,7 +119,7 @@ h3{
   color: var(--dark);
 }
 
-p{
+.title-text-descriptions{
   font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 400;
@@ -165,12 +161,11 @@ p .small{
 
 /* ================= HEADER ================= */
 .page-header{
-  display: flex;
-  align-items: center;
   color: var(--dark);
   border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container a{
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -183,7 +178,6 @@ p .small{
 .page-navigation-menu{
   display: flex;
   align-items: center;
-  margin-right: 76px;
 }
 .menu-list{
   display: flex;
@@ -242,14 +236,10 @@ p .small{
 }
 .contact-list{
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  align-items: center;
   gap: 40px;
 }
-.force{
-  margin-left: auto;
-  margin-right: 40px;
-}
+
 .force:hover,
 .force:focus{
   color: var(--accent-color-pressed-state);
@@ -257,14 +247,11 @@ p .small{
 /* ================= MAIN ================= */
 /* ================= SECTION-1-BANNER ================= */
 .image-bg{
-  display: block;
   background-color: var(--dark);
   background-image: linear-gradient(rgba(47, 46, 66, 70%), rgba(47, 46, 66, 70%)), url(../images/people-office-banner.jpg);
-  width: 1440px;
+  max-width: 1440px;
   background-repeat: no-repeat;
-  position: relative;
-  text-align: center;
-  color: white;
+  color: #ffffff;
   margin-left: auto;
   margin-right: auto;
   padding-top: 188px;
@@ -305,7 +292,6 @@ p .small{
 }
 .benefits-option{
   display: flex;
-  align-content: center;
   gap: 24px;
 }
 .benefits-item{
@@ -318,15 +304,13 @@ p .small{
   color: var(--primary-text-color);
 }
 /* ================= SECTION-3 ================= */
-.category-product{
-  padding-bottom: 120px;
-}
+
 .category-product-text{
   margin-bottom: 72px;
 }
 .category-product-list{
   display: flex;
-  align-content: center;
+  align-items: center;
   gap: 24px;
 }
 .category-product-item{
@@ -365,7 +349,6 @@ p .small{
   font-size: 16px;
   color: var(--primary-text-color);
   line-height: 1.5;
-  padding: 32px 16px;
 }
 
 
@@ -375,10 +358,7 @@ p .small{
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-content{
-  display: inline-block;
-  flex-direction: row;
-}
+
 .logo-footer{
   display: inline-block;
   font-family: "Raleway", sans-serif;
