@@ -289,6 +289,7 @@ p .small{
 }
 /* ================= SECTION-3 ================= */
 .category-product{
+  text-align: center;
   padding-bottom: 120px;
 }
 
